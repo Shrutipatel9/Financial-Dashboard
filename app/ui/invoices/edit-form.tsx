@@ -9,11 +9,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { Button } from "@/app/ui/button";
-<<<<<<< HEAD
 import { State, updateInvoice } from "@/app/lib/actions";
-=======
-import { createInvoice, State, updateInvoice } from "@/app/lib/actions";
->>>>>>> c5061618f3a686a73a7a41f44b44267678c999be
 import { useActionState } from "react";
 
 export default function EditInvoiceForm({
